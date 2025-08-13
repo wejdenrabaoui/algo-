@@ -1,17 +1,15 @@
-algorithme sentence
-var
-w=0, v=0,l=0:entier
-ch=chaine de caractere 
 
+d=0,f=0,max=0,maxt=0
+max=t[0]
+pour i de 1 a n-1 FAIRE
+si t[i]> max+t[i]
+max=t[i]
+d=i
+sinon
+max=max+t[i]
+ si maxt<max
+ maxt=max
+ d=i
+ f=i
 
-
-debut
-l=longue(ch)
-tanque ch[i]!="."
-si ch[i]==" " alors
-w++
-fin si
-si appartient  ch[i] ["a","o","u","y","i","e" "A","E","Y","u","O","I"] alors
-v++
-fin si 
-fin tanque
+ affiche (t,d,f)
